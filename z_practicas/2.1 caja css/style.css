@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(212, 207, 207, 0.637);
+}
+.caja{
+    border-style:inherit;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 2px;
+    
+}
+.caja-cabecera{
+    padding: 10px;
+    border-bottom: 1px solid rgba(190, 189, 189, 0.877);
+}
+.caja-contenido{
+    padding: 10px;
+    border-bottom: 1px solid rgba(190, 189, 189, 0.877);
+}
+.caja-footer{
+    padding: 10px;  
+}
+.caja-aceptar{
+    padding: 5px;
+    background-color: rgb(55, 52, 194);
+    border-style: none;
+    color: aliceblue;
+}
+.caja-cancelar{
+    padding: 5px;
+    background-color: rgb(190, 190, 190);
+    border-style: none;
+    color: aliceblue;
+}

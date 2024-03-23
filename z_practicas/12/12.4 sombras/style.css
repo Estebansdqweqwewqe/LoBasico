@@ -1,0 +1,28 @@
+body {
+    background-color: #eee;
+  }
+  .box {
+    /* 
+      Esta línea agrega un efecto de sombra a los elementos con la clase "box". La sombra tiene:
+      - 2 píxeles horizontalmente a la derecha (desplazamiento X positivo)
+      - 2 píxeles verticalmente hacia abajo (desplazamiento Y positivo)
+      - Desenfoque de 10 píxeles (radio de difuminado)
+      - Un color negro semitransparente (rgba(0, 0, 0, 0.274))
+    */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
+  }
+  /* 
+    Esta sección define una regla de estilo para elementos con la clase "text". 
+  */
+  .text {
+    color: white;
+    /* 
+      Esta línea agrega un efecto de sombra al texto de los elementos con la clase "text". La sombra tiene:
+      - 2 píxeles horizontalmente a la derecha (desplazamiento X positivo)
+      - 2 píxeles verticalmente hacia abajo (desplazamiento Y positivo)
+      - Desenfoque de 4 píxeles (radio de difuminado)
+      - Un color verde semitransparente (rgba(0, 255, 85, 0.9))
+    */
+    text-shadow: 2px 2px 4px rgba(0, 255, 85, 0.9);
+  }
+  

@@ -1,0 +1,31 @@
+body {
+    background-color: #eee;
+  }
+  
+  /* Define un contenedor con diseño de cuadrícula */
+  .grid {
+    display: grid; /* Muestra el elemento como una cuadrícula */
+    
+    /* Define el tamaño de las filas */
+    grid-template-rows: minmax(100px, auto); /*(Minimo , maximo)*/
+      /* Cada fila tendrá una altura mínima de 100px, pero puede crecer automáticamente */
+    
+    /* Define el tamaño de las columnas */
+    grid-template-columns: minmax(auto, 50%) 1fr 3em;  /*(Minimo , maximo)*/
+      /* La primera columna se ajusta al contenido, pero no menos del 50% */
+      /* La segunda columna toma 1 fracción del espacio restante */
+      /* La tercera columna tiene un ancho fijo de 3 ems */
+  }
+  
+  /* Asigna un color rojo de fondo a los elementos con la clase `.element` */
+  .element {
+    background-color: red;
+  }
+
+  
+
+
+
+
+  
+  

@@ -1,0 +1,57 @@
+body {
+  background-color: #eee;
+}
+.box {
+  position: relative;
+  left: 220px;
+  width: 170px;
+  top: 70px;
+}
+.subbox1 {
+  background-color: white;
+  width: 150px;
+  text-align: center;
+  border-radius: 2px;
+  border-left: 2px solid red;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
+  transition: 0.5s;
+}
+.subbox1 p {
+  padding: 4px;
+}
+.subbox1:hover {
+  transform: scale(1.1);
+}
+
+.subbox2 {
+  background-color: white;
+  width: 150px;
+  text-align: center;
+  border-radius: 2px;
+  border-left: 2px solid green;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
+  transition: 0.2s;
+}
+.subbox2 p {
+  padding: 4px;
+}
+.subbox2:hover {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.subbox3 {
+  background-color: white;
+  width: 150px;
+  text-align: center;
+  border-radius: 2px;
+  border-left: 2px solid blue;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
+  transition: 0.2s;
+}
+.subbox3 p {
+  padding: 4px;
+}
+
+.subbox3:hover{
+    background-color: rgba(206, 202, 202, 0.411);
+}

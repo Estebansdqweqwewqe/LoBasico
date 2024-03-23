@@ -1,0 +1,48 @@
+/* Este estilo establece el color de fondo del cuerpo del documento HTML */
+body {
+  background-color: azure;
+}
+
+/* Este estilo establece la apariencia y el diseño del menú de navegación */
+ul {
+  list-style-type: none; /* Elimina los puntos de viñeta predeterminados */
+  margin: 0; /* Elimina el margen externo */
+  padding: 0; /* Elimina el relleno interno */
+  width: 100%; /* Establece el ancho del menú en el 100% del contenedor */
+  overflow: hidden; /* Oculta cualquier contenido que sobresalga del menú */
+  position: fixed; /* Fija el menú en una posición específica */
+  background-color: black; /* Establece el color de fondo del menú */
+  top: 0; /* Alinea el menú en la parte superior del viewport */
+  left: 0; /* Alinea el menú en la parte izquierda del viewport */
+}
+
+/* Este estilo define el diseño de los elementos de lista en el menú */
+li {
+  float: left; /* Hace que los elementos de lista floten horizontalmente */
+}
+
+/* Este estilo define la apariencia de los enlaces dentro de los elementos de lista */
+li a {
+  display: block; /* Convierte los enlaces en bloques para ocupar todo el espacio disponible */
+  color: white; /* Establece el color del texto de los enlaces */
+  text-align: center; /* Centra el texto dentro de los enlaces */
+  padding: 14px; /* Añade relleno alrededor del texto de los enlaces */
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  font-size: 24px; /* Establece el tamaño de fuente de los enlaces */
+  top: 0; /* Alinea los enlaces en la parte superior del menú */
+}
+
+/* Este estilo define la apariencia de los elementos de lista al pasar el mouse sobre ellos */
+li:hover {
+  background-color: gray; /* Cambia el color de fondo de los elementos de lista al pasar el mouse sobre ellos */
+}
+
+/* Este estilo define la apariencia de un elemento con la clase "inicio" */
+.inicio {
+  background-color: green; /* Establece el color de fondo del elemento con la clase "inicio" */
+}
+
+/* Este estilo define el margen superior del contenido principal */
+.main {
+  margin-top: 60px; /* Establece un margen superior de 60px para separar el contenido principal del menú */
+}

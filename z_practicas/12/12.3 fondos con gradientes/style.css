@@ -1,0 +1,16 @@
+/* Esta línea es un comentario, ignorada por el navegador pero útil para la legibilidad */
+body {
+    background-color: #eee; /* Establece el color de fondo de toda la página a un gris claro (#eee) */
+  }
+  
+  .fondo {
+    background-image: linear-gradient(-130deg, rojo, azul); /* Crea un degradado lineal en elementos con la clase "fondo" */
+      /* El degradado cambia de rojo a azul en un ángulo de -130 grados */
+  }
+  
+  .fondo2 {
+    background-image: repeating-linear-gradient(0deg, rojo, azul 90%); /* Crea un degradado lineal repetido en elementos con la clase "fondo2" */
+      /* El degradado cambia de rojo a azul horizontalmente (0deg) y repite el patrón a lo largo del elemento */
+      /* La parte "90%" especifica que el color azul debe dejar de cubrir el elemento en la marca del 90%, dejando una franja roja del 10% al final */
+  }
+  

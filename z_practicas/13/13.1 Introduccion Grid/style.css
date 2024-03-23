@@ -1,0 +1,13 @@
+body{
+    background-color: #eee;
+
+}
+
+.grid{
+    display: inline-grid;/*Marca solo el texto donde esta*/
+    /*display: grid;   marca todo el ancho de la pantalla*/
+}
+
+.element {
+    background-color: red;
+}

@@ -1,0 +1,11 @@
+/* Establece el color de fondo del cuerpo del documento en blanco */
+body {
+    background-color: white; /* Color blanco */
+}
+
+/* Define el estilo de fondo para elementos con la clase "fondo" */
+.fondo {
+    background-color: rgba(215, 121, 15, 1); /* Color naranja con opacidad completa */
+    opacity: 0.5; /* Opacidad del color de fondo al 50%  cambia de todo el parrafo*/
+}
+

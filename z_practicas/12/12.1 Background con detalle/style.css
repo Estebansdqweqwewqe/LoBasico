@@ -1,0 +1,14 @@
+/* Define el color de fondo para el cuerpo de la página */
+body {
+    background-color: aqua;
+}
+
+/* Estilo para un elemento con la clase "fondo" */
+.fondo {
+    height: 400px; /* Define la altura del elemento */
+    background-color: green; /* Color de fondo */
+    background-image: url('https://i.pinimg.com/originals/42/0b/c9/420bc9cfc35976c46d26960a48c90c49.jpg'); /* Imagen de fondo (se ha omitido la URL) */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: left top; /* Posiciona la imagen en la esquina superior izquierda */
+    background-attachment: scroll; /* Define si la imagen se desplaza con el contenido de la página o se mantiene fija */
+}

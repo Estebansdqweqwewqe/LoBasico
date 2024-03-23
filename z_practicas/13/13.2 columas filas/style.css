@@ -1,0 +1,13 @@
+body {
+  background-color: #eee;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;/* los vuelve columnas y los fr significa que los divide en la suma de todo osea en 6 */
+  /*grid-template-rows: 1px 200px 300px; los vuelve filas */
+}
+
+.element {
+  background-color: red;
+}
